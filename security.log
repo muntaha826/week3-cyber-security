@@ -1,0 +1,69 @@
+[2026-06-02T13:01:59.909Z] INFO: Application started
+[2026-06-02T13:01:59.928Z] INFO: App running on http://localhost:4000
+[2026-06-02T13:02:29.280Z] WARN: Unauthorized access attempt on /show-users — no token
+[2026-06-02T13:02:35.838Z] INFO: New user signed up — ID: 1, Email: user@test.com
+[2026-06-02T13:02:40.424Z] WARN: Signup failed — duplicate email: user@test.com
+[2026-06-02T13:02:48.824Z] WARN: Unauthorized access attempt on /show-users — no token
+[2026-06-02T13:50:29.958Z] INFO: Application started
+[2026-06-02T13:50:29.997Z] INFO: App running on http://localhost:4000
+{"level":"info","message":"Application started"}
+{"level":"info","message":"Signup attempt: abc"}
+{"level":"warn","message":"Invalid email submitted: abc"}
+{"level":"info","message":"Signup attempt: user@test.com"}
+{"level":"warn","message":"Weak password submitted by: user@test.com"}
+{"level":"info","message":"Signup attempt: user@test.com"}
+{"level":"info","message":"User registered: user@test.com"}
+{"level":"info","message":"Signup attempt: user@test.com"}
+{"level":"info","message":"User registered: user@test.com"}
+{"level":"info","message":"Application started"}
+{"level":"info","message":"TEST LOG - SERVER STARTED"}
+{"level":"info","message":"Server started"}
+{"level":"info","message":"Server started"}
+{"level":"info","message":"Server started"}
+{"level":"info","message":"Signup attempt: user@test.com"}
+{"level":"info","message":"User registered: user@test.com"}
+{"level":"info","message":"Signup attempt: user@test.com"}
+{"level":"warn","message":"Duplicate signup attempt: user@test.com"}
+{"level":"info","message":"Signup attempt: user@test.com"}
+{"level":"warn","message":"Duplicate signup attempt: user@test.com"}
+{"level":"info","message":"Signup attempt: user2@test.com"}
+{"level":"info","message":"User registered: user2@test.com"}
+{"level":"info","message":"Server started"}
+{"level":"info","message":"Signup attempt: user2@test.com"}
+{"level":"info","message":"New user registered: user2@test.com"}
+{"level":"info","message":"Signup attempt: user2@test.com"}
+{"level":"warn","message":"Duplicate signup: user2@test.com"}
+{"level":"info","message":"Signup attempt: user2@test.com"}
+{"level":"warn","message":"Duplicate signup: user2@test.com"}
+{"level":"info","message":"Signup attempt: user2@test.com"}
+{"level":"warn","message":"Duplicate signup: user2@test.com"}
+{"level":"info","message":"Signup attempt: user2"}
+{"level":"warn","message":"Invalid email: user2"}
+{"level":"info","message":"Signup attempt: user0@test.com"}
+{"level":"info","message":"New user registered: user0@test.com"}
+{"level":"info","message":"Signup attempt: user1@test.com"}
+{"level":"warn","message":"Weak password for: user1@test.com"}
+{"level":"info","message":"Signup attempt: user1@test.com"}
+{"level":"info","message":"New user registered: user1@test.com"}
+{"level":"info","message":"Signup attempt: test2@gmail.com"}
+{"level":"warn","message":"Weak password for: test2@gmail.com"}
+{"level":"info","message":"Login attempt: user2@test.com"}
+{"level":"info","message":"Login successful: user2@test.com"}
+{"level":"warn","message":"Invalid token used"}
+{"level":"info","message":"Server started"}
+{"level":"info","message":"Signup attempt: test@gmail.com"}
+{"level":"info","message":"New user registered: test@gmail.com"}
+{"level":"info","message":"Signup attempt: admin' OR '1'='1"}
+{"level":"warn","message":"Invalid email: admin' OR '1'='1"}
+{"level":"info","message":"Signup attempt: <script>alert('XSS')</script>"}
+{"level":"warn","message":"Invalid email: <script>alert('XSS')</script>"}
+{"level":"warn","message":"Invalid token used"}
+{"level":"info","message":"Signup attempt: test@gmail.com"}
+{"level":"warn","message":"Duplicate signup: test@gmail.com"}
+{"level":"info","message":"Login attempt: test@gmail.com"}
+{"level":"info","message":"Login successful: test@gmail.com"}
+{"level":"info","message":"Login attempt: test@gmail.com"}
+{"level":"warn","message":"Login failed (wrong password): test@gmail.com"}
+{"level":"info","message":"Server started"}
+{"level":"info","message":"Signup attempt: <script>alert('XSS')</script>"}
+{"level":"warn","message":"Invalid email: <script>alert('XSS')</script>"}
